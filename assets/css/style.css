@@ -1,0 +1,92 @@
+/*************** header ************/
+
+header {
+    font-size: 20px;
+    text-align: right;
+    
+}
+
+.pic {
+    width: 50px;
+    border-radius: 100%;
+    
+}
+
+/*********** body ***********/
+
+
+/* serach bar */
+.marginsize {
+    height: 30px;
+    width: 500px;
+    box-shadow: 5px 5px 5px #888888;
+    margin: 0;
+    border: 0;
+}
+
+.centre {
+    text-align: center;
+}
+
+/* google image */
+.fu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 470px;
+    
+}
+
+/* buttons */
+.button1{
+    border: 0;
+    width: 200px;
+    height: 30px;
+    background-color: antiquewhite;
+}
+button:hover {
+    box-shadow: 1px 1px 1px #888888;
+}
+
+/* google offering lang */
+.sense {
+    text-align: center;
+}
+
+.size {
+    font-size: 12px;
+    padding-top:85px;
+}
+
+/*********** footer **********/
+
+.same-line {
+    height: 10px; 
+    position: relative;
+}
+.same-line div{
+    display: inline-block;
+    position: absolute;
+}
+.on-the-left{
+ left:0px;
+}
+.on-the-center{
+    left: 0%;
+    right: 0%;
+    text-align: center;
+}
+.on-the-right{
+   right: 0px;
+}
+.end {
+    float: left;
+    margin: 20px;
+}
+.yo{
+    background-color:rgb(201, 199, 199);
+}
+footer{
+    padding: 10px;
+    background-color:rgb(201, 199, 199);
+}
