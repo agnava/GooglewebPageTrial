@@ -1,27 +1,35 @@
 /*************** header ************/
 
 header {
-    font-size: 20px;
+    font-size: 15px;
     text-align: right;
-    
+    color: grey;
 }
 
 .pic {
-    width: 50px;
-    border-radius: 100%;
+    width: 20px;
+    border-radius: 50%;
     
 }
 
+header span{
+    padding: 10px;
+}
 /*********** body ***********/
 
-
-/* serach bar */
+body{
+    margin: 0;
+}
+/* search bar */
 .marginsize {
     height: 30px;
     width: 500px;
     box-shadow: 5px 5px 5px #888888;
     margin: 0;
     border: 0;
+}
+.marginsize :active{
+border-color: #888888;
 }
 
 .centre {
@@ -43,9 +51,15 @@ header {
     width: 200px;
     height: 30px;
     background-color: antiquewhite;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 button:hover {
-    box-shadow: 1px 1px 1px #888888;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+
+.last{
+    padding-top: 10px;
 }
 
 /* google offering lang */
@@ -55,7 +69,9 @@ button:hover {
 
 .size {
     font-size: 12px;
-    padding-top:85px;
+    padding-top:40px;
+    padding-bottom: 30px;
+    
 }
 
 /*********** footer **********/
@@ -79,14 +95,19 @@ button:hover {
 .on-the-right{
    right: 0px;
 }
-.end {
-    float: left;
-    margin: 20px;
-}
+
 .yo{
     background-color:rgb(201, 199, 199);
 }
 footer{
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 5px;
     background-color:rgb(201, 199, 199);
 }
+.padding
+{
+    padding: 30px;
+}
+
